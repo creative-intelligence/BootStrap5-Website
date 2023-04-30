@@ -1,0 +1,58 @@
+img{
+    width:500px;
+    margin-left: 3rem;
+    padding-left: 2.5rem;
+    opacity: .5;
+}
+
+.map-container-3{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container-3 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+.icons a{
+    margin: 20px;
+    padding-left: 20px;
+}
+@media screen and (max-width: 1200px)  {
+    img{
+        width: 450px;
+        margin-left: 2rem;
+        padding-left: 1.5rem;
+    }
+}
+@media screen and (max-width: 999px) {
+    img{
+        width: 375px;
+        margin-left: 1.5rem;
+        padding-left: .75rem;
+    }
+}
+@media screen and (min-width:768px) {
+    img{
+        width: 350px;
+        margin-left: 1rem;
+        padding-left: 0;
+    }
+}
+
+@media  (min-width:768px){
+    .news-input{
+        width:50%
+    }
+}
+
